@@ -2,7 +2,7 @@
 _site/
 .sass-cache/
 .jekyll-cache/
-.jekyll-metadata/
+.jekyll-metadata
 Gemfile.lock
 
 # macOS generated files #
@@ -13,3 +13,7 @@ Gemfile.lock
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+#VSCode
+.vscode/
+devich.github.io.code-workspace

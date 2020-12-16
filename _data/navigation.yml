@@ -1,6 +1,7 @@
-- title: Start
+- title: devich.github.io
   url: "/"
   side: left
+  class: nav-home-item
 
 - title: Getting Started
   url: "/getting-started/"
