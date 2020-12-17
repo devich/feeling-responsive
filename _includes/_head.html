@@ -30,7 +30,7 @@
 
 	<script src="{{ url }}/assets/js/modernizr.min.js"></script>
 
-	{%- comment -%} <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
 	<script>
 		WebFont.load({
 			google: {
@@ -38,7 +38,6 @@
 			}
 		});
 	</script>
-	{%- endcomment -%}
 
 	<noscript>
 		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic%7CVolkhov' rel='stylesheet' type='text/css'>
@@ -86,6 +85,9 @@
 	{% endif %}
 
 	{% include _favicon.html %}
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="{{ url }}/assets/css/custom.css">
 
 	{% unless page.style == NULL %}
 	<style type="text/css">{{ page.style }}</style>
