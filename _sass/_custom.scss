@@ -11,7 +11,16 @@
   color: #222222;
   text-rendering: optimizeLegibility;
   font-size: 1.1875rem;
+  color: #fff !important;
+  background: #9e0000 !important;
+  &:hover {
+    background: #7e0000 !important;
+  }
 }
+
+// #navigation > nav > section > ul > li.active > a.nav-home-item {
+//   background: #cc0000 !important;
+// }
 
 // @media screen and (max-width: 63.9375em) {
 //   .top-bar-section ul li > a.nav-home-item {
