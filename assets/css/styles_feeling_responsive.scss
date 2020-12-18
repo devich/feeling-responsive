@@ -5,9 +5,6 @@ sitemap:
 ---
 @charset "utf-8";
 
-//Redefine default variables
-@import "custom_variables.scss";
-
 @import "functions.scss";
 @import "01_settings_colors.scss";
 @import "02_settings_typography.scss";
